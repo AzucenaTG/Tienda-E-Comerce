@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Josefin+Sans:ital,wght@1,100;1,200&display=swap');
+
+.agregar_muñeco{
+ width: 100%;
+ height: 500px;
+ margin: 10px 0 10px 0;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.titulo_cargue_su_muñeco{ 
+ margin-top: 10px;
+ margin-bottom: 10px;
+ font-size: 30px;
+ font-family: 'Barlow Condensed', sans-serif;
+}
+
+.contenido_form_muñeco{
+ display: flex;
+ flex-direction: column; 
+ gap: 10px;
+}
+
+.form_carga_de_muñecos{
+ width: 423px;
+ height: 60px;
+ border-radius: 10px;
+ border-color: fuchsia rgb(219, 80, 126) rgb(219, 80, 126) fuchsia;
+ outline: none;
+}
+
+.form_carga_de_muñecos::placeholder{
+ color: #f3768b;
+ font-size: 15px;
+}
+
+.login_boton_agregar{
+ width: 423px;
+ height: 40px;   
+ border-radius: 5px;
+ border-color: #f3768b;
+ background-color: #f3768b;
+ outline: none;
+ color: #ffffff;
+ font-size: 20px;
+ font-family: 'Barlow Condensed', sans-serif;
+}
+
+@media screen and (min-width: 400px) {
+
+    .parte_principal{
+        width: 100vw;
+        display: flex;
+        gap: 10%;  
+       }
+       .imagotipo_imagen{
+        width: 40px;
+        height: 40px;
+       }
+       .campo_de_busqueda{
+       width: 40px;
+       height: 30px;
+       }
+      .click_en_buscar{
+       width: 30px;
+       height: 30px;
+      }
+      .agregar_muñeco{
+        width: 100vw;
+        height: 500px;
+       }
+       
+       .titulo_cargue_su_muñeco{ 
+       font-size: 30px;
+       }
+              
+       .form_carga_de_muñecos{
+        width: 220px;
+        height: 60px;
+       }
+       
+       .login_boton_agregar{
+        width: 220px;
+        height: 40px;   
+        font-size: 20px;
+       }       
+    }
+    
+    @media screen and (min-width: 600px) {
+    
+       .parte_principal{
+        width: 100vh;
+        display: flex;
+        gap: 18%;  
+       }
+       .imagotipo_imagen{
+        width: 40px;
+        height: 40px;
+       }
+       .campo_de_busqueda{
+       width: 90px;
+       height: 30px;
+       }
+      .click_en_buscar{
+       width: 30px;
+       height: 30px;
+      }  
+      .agregar_muñeco{
+        width: 100vw;
+        height: 500px;
+       }
+       
+       .titulo_cargue_su_muñeco{ 
+       font-size: 30px;
+       }
+              
+       .form_carga_de_muñecos{
+        width: 230px;
+        height: 60px;
+       }
+       
+       .login_boton_agregar{
+        width: 230px;
+        height: 40px;   
+        font-size: 20px;
+       }       
+    }
+     
+    
+       @media screen and (min-width: 800px) {
+    
+       .parte_principal{
+        width: 100vh;
+        display: flex;
+        gap: 28%; 
+       
+       }
+       .imagotipo_imagen{
+        width: 60px;
+        height: 60px;
+       }
+       .busqueda{
+         margin-left: 20px;
+       }
+       .campo_de_busqueda{
+        width: 120px;
+        height: 30px;
+       }
+      .click_en_buscar{
+       width: 30px;
+       height: 30px;
+      } 
+      .agregar_muñeco{
+        width: 100vw;
+        height: 500px;
+       }
+       
+       .titulo_cargue_su_muñeco{ 
+       font-size: 30px;
+       }
+              
+       .form_carga_de_muñecos{
+        width: 300px;
+        height: 60px;
+       }
+       
+       .login_boton_agregar{
+        width: 300px;
+        height: 40px;   
+        font-size: 20px;
+       }       
+    }
+      
+    
+    
+       @media screen and (min-width: 1000px) {
+ 
+       .parte_principal{
+        width: 100vh;
+        display: flex;
+        gap: 65%; 
+       
+       }
+       .imagotipo_imagen{
+        width: 60px;
+        height: 60px;
+       }
+       .busqueda{
+         margin-left: 20px;
+       }
+       .campo_de_busqueda{
+        width: 200px;
+        height: 40px;
+       }
+      .click_en_buscar{
+       width: 40px;
+       height: 40px;
+      }
+      .agregar_muñeco{
+        width: 100vw;
+        height: 500px;
+       }
+       
+       .titulo_cargue_su_muñeco{ 
+       font-size: 30px;
+       }
+              
+       .form_carga_de_muñecos{
+        width: 400px;
+        height: 60px;
+       }
+       
+       .login_boton_agregar{
+        width: 400px;
+        height: 40px;   
+        font-size: 20px;
+       }       
+    }
+      
+    

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Agregue Su Muñeco |KawaiiShop</title>
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/encabezado.css">
+        <link rel="stylesheet" href="../css/agregarmuñeco.css">
+        <link rel="stylesheet" href="../css/rodapie.css">
+    </head>
+    <body>
+       <header class="encabezado">
+            <section class="parte_principal">
+                <div class="imagotipo_imagen">
+                    <a class="link_de_logo" href="index.html">
+                      <img src="../img/logo.png" alt="imagen del imagotipo de la tienda" class="imagotipo">
+                    </a>
+                </div>
+                <form class="busqueda">
+                 <input type="search" name="busquedaMuñecos" placeholder="Haz tu busqueda aqui" pattern="[^'\x22]+" class="campo_de_busqueda">
+                 <button class="click_en_buscar"></button>
+                </form>
+           </section>
+       </header>
+       <main>
+            <section class="agregar_muñeco">
+                <div class="titulo_cargue_su_muñeco">
+                    <h3 class="titulo">Agregue su muñeco</h3>
+                </div>
+                <form class="agregar_form">
+                    <div class="contenido_form_muñeco">
+                     <input class="form_carga_de_muñecos" type="url" name="url"  placeholder="link de imagen" pattern="[Hh][Tt][Tt][Pp][Ss]?:\/\/(?:(?:[a-zA-Z\u00a1-\uffff0-9]+-?)*[a-zA-Z\u00a1-\uffff0-9]+)(?:\.(?:[a-zA-Z\u00a1-\uffff0-9]+-?)*[a-zA-Z\u00a1-\uffff0-9]+)*(?:\.(?:[a-zA-Z\u00a1-\uffff]{2,}))(?::\d{2,5})?(?:\/[^\s]*)?" required>
+                     <input class="form_carga_de_muñecos" type="text" placeholder="nombre" title=" de 3 a 15 caracteres, se permite espacio" pattern="[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.'-]{3,15}" required>
+                     <input class="form_carga_de_muñecos" type="text" placeholder="categoria" title=" de 3 a 10 caracteres, se permite espacio" pattern="[A-Za-z ]{3,10}" required>
+                     <input class="form_carga_de_muñecos" type="number" placeholder="precio" min="1" pattern="^[0-9]+" required>
+                     <textarea class="form_carga_de_muñecos" rows="5" cols="40" name="Mensaje" placeholder="descripcion" title="Tu mensaje no debe exceder los 100 caracteres" pattern="[A-Za-z ]{5,100}" required></textarea>
+                     <button class="login_boton_agregar" type="submit">Agregar</button>
+                    </div>
+                </form>
+            </section>
+       </main>
+       <footer class="rodapie">
+        <section class="rodapie__contacto">
+           <div class="rodapie_informacion_sobre_nosotros">
+                <div class="imagotipo_imagen_rodapie">
+                 <img src="../img/logo.png" alt="imagen del imagotipo de la tienda" class="imagotipo_rodapie">
+                </div>
+                <div class="sobre_nosotros">
+                    <p class="quienes_somos">Quienes Somos</p>
+                    <p class="quienes_somos">Politica De Privacidad</p>
+                    <p class="quienes_somos">Nuestras Tiendas</p>
+                </div>
+                <div class="rodapie_contacto">
+                    <form class="formulario_contacto">
+                        <p class="rodapie_escribanos_formulario">Escribanos</p>
+                        <input class="nombre_formulario" type="text" name="nombre" placeholder="Escribe tu nombre" title="solo se acepta el nombre y espacios en blanco" minlength="5" maxlength="50" required>
+                        <textarea class="mensaje_formulario" rows="5" cols="40" id="mensaje" name="Mensaje" placeholder="Escribe tu mensaje" title="Tu mensaje no debe exceder los 300 caracteres" maxlength="300" required></textarea>
+                        <button class="enviar" type="submit" value="Enviar">Enviar</button>
+                    </form>
+                </div>
+           </div>
+        </section>
+        <p class="Copyright"> © Copyright Maria Azucena Torres Gorlero - 2022</p>
+       </footer> 
+    </body>
+</html>

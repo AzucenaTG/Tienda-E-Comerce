@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Josefin+Sans:ital,wght@1,100;1,200&display=swap');
+
+.contenido_muñecos_gatitos, .contenido_muñecos_conejos, .contenido_muñecos_otros{
+ font-family: 'Barlow Condensed', sans-serif;
+ display: flex;
+ flex-direction: column;
+ margin-bottom: 20px;
+}
+
+.toda_la_section_gatitos, .toda_la_section_conejos, .toda_la_section_otros{
+ display: flex;
+ flex-wrap: wrap;
+ gap: 30px;
+ justify-content: center;
+}
+
+.titulo_gatitos, .titulo_conejos, .titulo_otros{
+  margin-top: 30px;
+  margin-left: 5px;
+  width: 90%;
+  font-size: 40px; 
+}
+
+.contenido_gatitos, .contenido_conejos, .contenido_otros{
+ display: flex;
+ flex-direction: column;
+}
+
+.imagen_gatito{
+ background-image: url("../img/gatitos/muñecoGatito.jpg");
+ background-size: contain;
+ width: 178px;
+ height: 178px;
+}
+
+.imagen_gatito1{
+    background-image: url("../img/gatitos/muñecoGatito2.jpg");
+    background-size: contain;
+    width: 178px;
+    height: 178px;
+}
+
+.imagen_gatito2{
+    background-image: url("../img/gatitos/muñecoGatito3.jpg");
+    background-size: cover;
+    background-position: 10%;
+    width: 178px;
+    height: 178px;
+}
+
+.imagen_gatito3{
+    background-image: url("../img/gatitos/muñecoGatito4.jpg");
+    background-size: contain;
+    width: 178px;
+    height: 178px;
+}
+
+.imagen_gatito4{
+    background-image: url("../img/gatitos/muñecoGatito5.jpg");
+    background-size: cover;
+    background-position: 40%;
+    width: 178px;
+    height: 178px;
+}
+
+.imagen_gatito5{
+    background-image: url("../img/gatitos/muñecoGatito6.jpg");
+    background-size: contain;
+    width: 178px;
+    height: 178px;
+}
+
+.contenido_informacion_de_imagen, .contenido_informacion_de_imagen_conejos, .contenido_informacion_de_imagen_otros{
+  display: flex;  
+  flex-direction: column;
+  padding: 5px;
+}
+
+.numero_producto_gatito, .numero_producto_conejo, .numero_producto_otros{
+ font-size: 13px;
+ text-align: center;
+ margin-top: 5px;
+ margin-bottom: 5px;
+}
+
+.precio_gatito, .precio_conejo, .precio_otros{
+ font-size: 16px;
+ text-align: center;
+ color: green;
+}
+
+.ver_producto{
+ font-size: 19px;
+ text-align: center;
+ color: rgb(241, 156, 170);  
+ margin-top: 5px;
+}
+
+.contenido_texto_ver_mas{
+ font-size: 20px;
+ margin-top: 10px;
+ margin-right: 35px;
+ text-align: end;
+ color: rgb(241, 156, 170);
+}
+
+.imagen_conejo{
+    background-image: url("../img/conejos/muñecoConejo.jpg");
+    background-size: cover;
+    background-position: 40%;
+    width: 178px;
+    height: 178px;  
+}
+
+.imagen_conejo2{
+    background-image: url("../img/conejos/muñecoConejo1.jpg");
+    background-size: contain;
+    width: 178px;
+    height: 178px;  
+}
+
+.imagen_conejo3{
+    background-image: url("../img/conejos/muñecoConejo2.jpg");
+    background-size: cover;
+    background-position: 40%;
+    width: 178px;
+    height: 178px;  
+}
+
+.imagen_conejo4{
+    background-image: url("../img/conejos/muñecoConejo3.jpg");
+    background-size: cover;
+    background-position: 40%;
+    width: 178px;
+    height: 178px;  
+}
+
+.imagen_conejo5{
+    background-image: url("../img/conejos/muñecoConejo4.jpg");
+    background-size: cover;
+    background-position: 40%;
+    width: 178px;
+    height: 178px;  
+}
+
+.imagen_conejo6{
+    background-image: url("../img/conejos/muñecoConejo5.jpg");
+    background-size: contain;
+    width: 178px;
+    height: 178px;  
+}
+
+.imagen_otros{
+    background-image: url("../img/otros/muñeco.jpg");
+    background-size: cover;
+    background-position: 40%;
+    width: 178px;
+    height: 178px; 
+}
+
+.imagen_otros2{
+    background-image: url("../img/otros/MuñecoCerdito.jpg");
+    background-size: contain;
+    width: 178px;
+    height: 178px; 
+}
+
+.imagen_otros3{
+    background-image: url("../img/otros/muñecoOsoHalloween.jpg");
+    background-size: contain;
+    width: 178px;
+    height: 178px; 
+}
+
+.imagen_otros4{
+    background-image: url("../img/otros/muñecoPatito.jpg");
+    background-size: cover;
+    background-position: 40%;
+    width: 178px;
+    height: 178px; 
+}
+
+.imagen_otros5{
+    background-image: url("../img/otros/MuñecoRanaRosa.jpg");
+    background-size: contain;
+    width: 178px;
+    height: 178px; 
+}
+
+.imagen_otros6{
+    background-image: url("../img/otros/muñecoTotoro.jpg");
+    background-size: cover;
+    background-position: 40%;
+    width: 178px;
+    height: 178px; 
+}

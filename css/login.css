@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Josefin+Sans:ital,wght@1,100;1,200&display=swap');
+
+.contenido_login{
+ width: 100%;
+ height: 400px;  
+ margin-top: 10px;
+ margin-bottom: 10px; 
+ display: flex;
+ flex-direction: column;
+}
+
+.login_form{
+ display: flex;   
+ align-items: center;
+ flex-direction: column;
+ justify-content: space-between;
+}
+
+.titulo_login{
+ display: flex;
+ gap: 10px;
+ text-align: center;
+}
+
+.titulo{ 
+ font-size: 30px;
+ margin-top: 20px;
+ margin-bottom: 20px; 
+ font-family: 'Barlow Condensed', sans-serif;
+}
+
+.contenido_form_login{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
+.login_email, .login_contrasena{
+ width: 423px;
+ height: 60px;
+ border-radius: 10px;
+ border-color: fuchsia rgb(219, 80, 126) rgb(219, 80, 126) fuchsia;
+ outline: none;
+}
+
+.login_email::placeholder,.login_contrasena::placeholder{
+ color: #f3768b;
+ font-size: 15px;
+}
+
+.login_boton_iniciar{
+ width: 423px;
+ height: 40px;  
+ border-radius: 5px;
+ border-color: #f3768b;
+ background-color: #f3768b;
+ outline: none;
+ color: #ffffff;
+ font-size: 30px;
+ font-family: 'Barlow Condensed', sans-serif;
+}
+
+@media screen and (min-width: 400px) {
+
+ .contenido_login{
+ width: 100vw;
+ height: 400px;  
+}     
+ .titulo{ 
+ font-size: 20px;
+}
+ .login_email, .login_contrasena{
+ width: 100px;
+ height: 60px;
+}
+ .login_boton_iniciar{
+ width: 100px;
+ height: 40px;  
+ font-size: 20px; 
+}  
+.parte_principal{
+    width: 100vw;
+    display: flex;
+    gap: 10%;  
+   }
+   .imagotipo_imagen{
+    width: 40px;
+    height: 40px;
+   }
+   .campo_de_busqueda{
+   width: 40px;
+   height: 30px;
+   }
+  .click_en_buscar{
+   width: 30px;
+   height: 30px;
+  } 
+  
+}
+
+@media screen and (min-width: 600px) {
+
+    .contenido_login{
+    width: 100vw;
+    height: 400px;  
+   }     
+    .titulo{ 
+    font-size: 20px;
+   }
+    .login_email, .login_contrasena{
+    width: 200px;
+    height: 60px;
+   }
+    .login_boton_iniciar{
+    width: 200px;
+    height: 40px;  
+    font-size: 20px; 
+   } 
+   .parte_principal{
+    width: 100vh;
+    display: flex;
+    gap: 18%;  
+   }
+   .imagotipo_imagen{
+    width: 40px;
+    height: 40px;
+   }
+   .campo_de_busqueda{
+   width: 90px;
+   height: 30px;
+   }
+  .click_en_buscar{
+   width: 30px;
+   height: 30px;
+  }  
+ 
+   }
+
+   @media screen and (min-width: 800px) {
+
+    .contenido_login{
+    width: 100vw;
+    height: 400px;  
+   }     
+    .titulo{ 
+    font-size: 30px;
+   }
+    .login_email, .login_contrasena{
+    width: 300px;
+    height: 60px;
+   }
+    .login_boton_iniciar{
+    width: 300px;
+    height: 40px;  
+    font-size: 30px; 
+   } 
+   .parte_principal{
+    width: 100vh;
+    display: flex;
+    gap: 28%; 
+   
+   }
+   .imagotipo_imagen{
+    width: 60px;
+    height: 60px;
+   }
+   .busqueda{
+     margin-left: 20px;
+   }
+   .campo_de_busqueda{
+    width: 120px;
+    height: 30px;
+   }
+  .click_en_buscar{
+   width: 30px;
+   height: 30px;
+  } 
+  
+   }
+
+   @media screen and (min-width: 1000px) {
+
+    .contenido_login{
+    width: 100vw;
+    height: 400px;  
+   }     
+    .titulo{ 
+    font-size: 30px;
+   }
+    .login_email, .login_contrasena{
+    width: 400px;
+    height: 60px;
+   }
+    .login_boton_iniciar{
+    width: 400px;
+    height: 40px;  
+    font-size: 30px; 
+   }
+   .parte_principal{
+    width: 100vh;
+    display: flex;
+    gap: 65%; 
+   
+   }
+   .imagotipo_imagen{
+    width: 60px;
+    height: 60px;
+   }
+   .busqueda{
+     margin-left: 20px;
+   }
+   .campo_de_busqueda{
+    width: 200px;
+    height: 40px;
+   }
+  .click_en_buscar{
+   width: 40px;
+   height: 40px;
+  }   
+   }

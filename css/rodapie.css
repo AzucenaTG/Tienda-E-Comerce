@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Josefin+Sans:ital,wght@1,100;1,200&display=swap');
+
+.rodapie_informacion_sobre_nosotros{
+ display:flex;
+ justify-content: space-evenly;
+ background-color:rgb(241, 156, 170); 
+ font-family: 'Barlow Condensed', sans-serif;
+ margin-top: 30px;
+ width: 100%;
+ height: 100vw;
+}
+
+.imagotipo_imagen_rodapie{
+ margin: 150px 20px 0 0;   
+}
+
+.imagotipo_rodapie{
+ width: 300px;
+}
+
+.sobre_nosotros{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ font-size: 25px;
+ color: #ffffff;
+ margin: 140px 20px 0 0; 
+}
+
+.quienes_somos:hover{
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.rodapie_contacto{
+ display: flex;
+ justify-content: space-around; 
+ margin-top: 80px;
+ color: #ffffff;
+}
+
+.formulario_contacto{
+ display: flex;
+ flex-direction: column; 
+ gap: 16px;
+}
+
+.rodapie_escribanos_formulario{
+    font-size: 20px; 
+}
+
+.nombre_formulario, .mensaje_formulario{
+    font-size: 15px;
+    text-align: start;
+   width: 300px;
+   height: 300px;
+    border-radius: 5px;
+    border-color: rgb(241, 156, 170);
+    color: #f3768b;
+    outline: none;
+}
+
+.nombre_formulario::placeholder, .mensaje_formulario::placeholder{
+  color: rgb(241, 156, 170);  
+}
+
+.enviar{
+ border-radius: 5px;
+ background-color: #f3768b;
+ color: #ffffff;
+ border-radius: 5px;
+ border-color: pink;
+ outline: none; 
+ font-size: 20px;
+ text-align: center;
+ width: 100px;
+ height: 40px; 
+}
+
+.enviar:hover{
+ cursor: pointer;
+}
+
+.Copyright{
+ color: #ffffff;
+ font-size: 18px;
+ text-align: center;
+ padding-top: 5px;
+ padding-bottom: 8px;
+}
+
+@media screen and (min-width: 360px) {
+  
+ .rodapie_informacion_sobre_nosotros{
+   height: 100%;
+   margin: 0;
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+    gap: 20px;
+  }
+  .imagotipo_rodapie{
+    width: 150px;
+   }
+   .imagotipo_imagen_rodapie{
+    display: flex;  
+    margin-top: 20px;
+   }
+   .sobre_nosotros{
+    display: flex;
+    font-size: 20px;
+    margin: 0;
+   }
+   .rodapie_contacto{
+    display: flex;
+    margin: 0;
+  }
+  .formulario_contacto{
+    display: flex;
+  }
+  .nombre_formulario, .mensaje_formulario{
+    width: 300px;
+    height: 40px;
+  }
+  .enviar{
+    margin-bottom: 10px;
+    width: 100px;
+    height: 30px;
+  }
+  .Copyright{
+   padding: 0;
+   margin: 10px 0 10px 0;
+   color: #f3768b;
+  }
+}
+
+@media screen and (min-width: 490px) {
+  .rodapie_informacion_sobre_nosotros{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+     gap: 20px;
+   }
+   .imagotipo_rodapie{
+     width: 150px;
+    }
+    .imagotipo_imagen_rodapie{
+     display: flex;  
+     margin-top: 20px;
+    }
+    .sobre_nosotros{
+     display: flex;
+     font-size: 20px;
+     margin: 0;
+    }
+    .rodapie_contacto{
+     display: flex;
+     margin: 0;
+   }
+   .formulario_contacto{
+     display: flex;
+   }
+   .nombre_formulario, .mensaje_formulario{
+     width: 300px;
+     height: 40px;
+   }
+   .enviar{
+     margin-bottom: 10px;
+     width: 100px;
+     height: 30px;
+   }
+   .Copyright{
+    padding: 0;
+    margin: 10px 0 10px 0;
+    color: #f3768b;
+   }
+}
+
+@media screen and (min-width: 800px) {
+  .rodapie_informacion_sobre_nosotros{
+    height: 100%;
+    width: 100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+  .imagotipo_imagen_rodapie{
+    margin:  0;   
+   }
+   .imagotipo_rodapie{
+    width: 200px;
+   }
+   .nombre_formulario, .mensaje_formulario{
+    width: 200px;
+    height: 40px;
+  }
+   
+   .rodapie_contacto{
+    margin-top: 30px;
+    margin-bottom: 20px;
+   }
+   
+}
+
+@media screen and (min-width: 1000px) {
+  .rodapie_informacion_sobre_nosotros{
+    height: 100%;
+    width: 100vw;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+  }
+  .imagotipo_imagen_rodapie{
+    margin:  0;   
+   }
+   .imagotipo_rodapie{
+    width: 200px;
+   }
+   .sobre_nosotros{
+    font-size: 30px;
+   }
+   .nombre_formulario, .mensaje_formulario{
+    width: 300px;
+    height: 40px;
+  }
+   
+   .rodapie_contacto{
+    margin-top: 30px;
+    margin-bottom: 20px;
+   }
+   
+}

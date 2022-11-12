@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Inicie Sesion |KawaiiShop</title>
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/encabezado.css">
+        <link rel="stylesheet" href="../css/login.css">
+        <link rel="stylesheet" href="../css/rodapie.css">
+    </head>
+    <body>
+       <header class="encabezado">
+            <section class="parte_principal">
+                <div class="imagotipo_imagen">
+                    <a class="link_de_logo" href="index.html">
+                      <img src="../img/logo.png" alt="imagen del imagotipo de la tienda" class="imagotipo">
+                    </a>
+                </div>
+                <form class="busqueda">
+                 <input type="search" name="busquedaMuñecos" placeholder="Haz tu busqueda aqui" pattern="[^'\x22]+" class="campo_de_busqueda">
+                 <button class="click_en_buscar"></button>
+                </form>
+           </section>
+       </header>
+       <main>
+            <section class="contenido_login">
+                <form class="login_form">
+                    <div class="titulo_login">
+                     <h3 class="titulo">Iniciar Sesion</h3>
+                    </div>
+                    <div class="contenido_form_login">
+                     <input class="login_email" type="email" name="email" placeholder="coloque su correo" title="ejemplo: karina@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required>
+                     <input class="login_contrasena" type="password" name="password" placeholder="escriba su contraseña"  pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{8,12}$" title="Al menos 8 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." required>
+                     <button class="login_boton_iniciar" type="submit">Iniciar</button>
+                     <label class="checkbox_recordatorio">
+                     <input type="checkbox" checked="checked" name="remember">Guardar
+                     </label>
+                    </div>
+                </form>
+            </section>
+       </main>
+       <footer class="rodapie">
+        <section class="rodapie__contacto">
+           <div class="rodapie_informacion_sobre_nosotros">
+            <div class="imagotipo_imagen">
+                <a class="link_de_logo" href="index.html">
+                  <img src="../img/logo.png" alt="imagen del imagotipo de la tienda" class="imagotipo">
+                </a>
+            </div>
+                <div class="sobre_nosotros">
+                    <p class="quienes_somos">Quienes Somos</p>
+                    <p class="quienes_somos">Politica De Privacidad</p>
+                    <p class="quienes_somos">Nuestras Tiendas</p>
+                </div>
+                <div class="rodapie_contacto">
+                    <form class="formulario_contacto">
+                        <p class="rodapie_escribanos_formulario">Escribanos</p>
+                        <input class="nombre_formulario" type="text" name="nombre" placeholder="Escribe tu nombre" title="solo se acepta el nombre y espacios en blanco" minlength="5" maxlength="50" required>
+                        <textarea class="mensaje_formulario" rows="5" cols="40" id="mensaje" name="Mensaje" placeholder="Escribe tu mensaje" title="Tu mensaje no debe exceder los 300 caracteres" maxlength="300" required></textarea>
+                        <button class="enviar" type="submit" value="Enviar">Enviar</button>
+                    </form>
+                </div>
+           </div>
+        </section>
+        <p class="Copyright"> © Copyright Maria Azucena Torres Gorlero - 2022</p>
+       </footer> 
+    </body>
+</html>
